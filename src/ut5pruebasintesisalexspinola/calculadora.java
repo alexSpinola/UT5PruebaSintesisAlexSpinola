@@ -19,12 +19,12 @@ public class calculadora {
         this.operador1 = operador1;
     }
 
-    public int getOperador2() {
-        return operador2;
+    public int getOper2() {
+        return oper2;
     }
 
-    public void setOperador2(int operador2) {
-        this.operador2 = operador2;
+    public void setOper2(int oper2) {
+        this.oper2 = oper2;
     }
 
     public int getOperador() {
@@ -35,6 +35,6 @@ public class calculadora {
         this.operador = operador;
     }
     private int operador1;
-    private int operador2;
+    private int oper2;
     private int operador;
 }
