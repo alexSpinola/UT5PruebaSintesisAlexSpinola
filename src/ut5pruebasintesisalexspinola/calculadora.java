@@ -6,7 +6,7 @@
 package ut5pruebasintesisalexspinola;
 
 /**
- *
+ * Esto es un comentario para la clase calculadora
  * @author alexander
  */
 public class calculadora {
@@ -34,7 +34,17 @@ public class calculadora {
     public void setOperacion(int operacion) {
         this.operacion = operacion;
     }
-    private int operador1;
+    
+    /**
+     * Este es el primer atributo para la clase calculadora
+     */
+    private int operador1; 
+        /**
+     * Este es el segundo atributo para la clase calculadora
+     */
     private int operador2;
+        /**
+     * Este es el tercer atributo para la clase calculadora
+     */
     private int operacion;
 }
