@@ -19,20 +19,20 @@ public class calculadora {
         this.operador1 = operador1;
     }
 
-    public int getOperador2() {
+    public int getOper2() {
         return operador2;
     }
 
-    public void setOperador2(int operador2) {
-        this.operador2 = operador2;
+    public void setOper2(int oper2) {
+        this.operador2 = oper2;
     }
 
-    public int getOperacion() {
-        return operacion;
+    public int getOperador() {
+        return operador1;
     }
 
-    public void setOperacion(int operacion) {
-        this.operacion = operacion;
+    public void setOperador(int operador) {
+        this.operador1 = operador;
     }
     
     /**
@@ -47,4 +47,5 @@ public class calculadora {
      * Este es el tercer atributo para la clase calculadora
      */
     private int operacion;
+
 }
